@@ -1,0 +1,52 @@
+.hamburger{
+
+    display: grid;
+    width: 30px;
+    height: 18px;
+    gap: 5px;
+    position: absolute;
+    right: 12px;
+    margin-top: 32px;
+    z-index: 4;
+}
+
+.hamburger div{
+
+    background-color: white;
+    width: 30px;
+    height: 3px;
+    border-radius: 4px;
+}
+
+.box-transition{
+
+    transform: translate(8px, -15px);
+    transition: transform 0.4s ease-in;
+
+}
+
+.animation1{
+
+    position: relative;
+    animation-name: rotate;
+    top: 5.5px;
+    transform: rotate(45deg);
+    transition: transform 0.4s ease-in;
+
+}
+
+.animation2{
+
+    position: relative;
+    animation-name: rotate2;
+    bottom: 5.5px;
+    transform: rotate(-45deg);
+    transition: transform 0.4s ease-in;
+}
+
+.reverse{
+
+    
+    transition: transform 0.4s ease-in;
+
+}
